@@ -1,0 +1,47 @@
+nav a {
+   color: crimson;
+   text-decoration: none; 
+}
+.about {
+    background-color: #eaeaee;
+}
+.users span {
+    font-weight: bold;
+}
+
+.creators .link {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;  
+  text-decoration: none;
+
+}
+
+.creators .link.font {
+    font-weight: bold;
+    font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+    
+}
+
+.cta h2 {
+    color:crimson;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+ul li:first-child,
+ul li:nth-child(3) {
+    text-decoration: underline;
+}
+
+.whatever {
+    display: inline-block;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.whatever:after {
+    width: 100%;
+    position: absolute;
+}
+
+.whatever:hover {
+    transform: scaleX(0);
+    
+}
